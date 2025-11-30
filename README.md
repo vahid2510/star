@@ -49,6 +49,8 @@ python -m starpatterns.demos.examples
 # یا دمو کامل با تمرکز روی انیمیشن‌ها
 python -m starpatterns.demos.all_examples
 ```
+## پیش‌نمایش انیمیشن
+![Animation Demo](assets/animation-demo.gif)
 
 ## License
 
