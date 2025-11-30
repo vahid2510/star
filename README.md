@@ -1,20 +1,19 @@
 # starpatterns
 
-`starpatterns` is a lightweight Python library for generating ASCII patterns, fractals, and playful terminal animations with no external dependencies.
+`starpatterns` is a lightweight Python library for generating ASCII patterns, fractals, and **۲۰+** ترمینال انیمیشن جذاب بدون وابستگی خارجی.
 
 ## Features
 - Basic shapes: triangle, square, diamond
 - Advanced shapes: hollow square, cross, hourglass
 - Fractals: Sierpinski triangle
-- Terminal animations: wave text, spinner, bouncing ball
+- Terminal animations: ۲۰+ انیمیشن از جمله wave، spinner، مارکوئی، بار پیشرفت، مار، ماتریکس رِین، شهاب‌سنگ، DNA helix، equalizer و بیشتر
 - Utilities: ANSI colors, terminal clearing and cursor control
 - Demo script covering all features
 
 ## Installation
 
 ```bash
-pip install git+https://github.com/vahid2510/star.git
-
+pip install starpatterns
 ```
 
 ## Quick Start

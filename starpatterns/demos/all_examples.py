@@ -8,8 +8,12 @@ from starpatterns import (
     colorize,
     cross,
     diamond,
+    loading_bar,
+    marquee,
     hollow_square,
     hourglass,
+    matrix_rain,
+    snake_line,
     rgb,
     sierpinski,
     spinner,
@@ -50,9 +54,17 @@ def show_animations() -> None:
     print("Wave:")
     wave_text("Animated wave", amplitude=4, speed=0.05, cycles=1)
     print("Spinner:")
-    spinner("Working", duration=1.5, interval=0.1)
+    spinner("Working", duration=1.2, interval=0.08)
+    print("Loading bar:")
+    loading_bar(width=25, duration=1.2, char="#")
+    print("Marquee:")
+    marquee("Scrolling text showcase", width=28, cycles=1, speed=0.04)
+    print("Snake line:")
+    snake_line(width=32, length=10, frames=60, delay=0.03, head="O", body="o")
+    print("Matrix rain (short preview):")
+    matrix_rain(width=24, height=8, frames=40, delay=0.04)
     print("Bouncing ball:")
-    bouncing_ball(width=22, height=6, frames=45, delay=0.04, char="*")
+    bouncing_ball(width=22, height=6, frames=35, delay=0.04, char="*")
     time.sleep(0.2)
 
 

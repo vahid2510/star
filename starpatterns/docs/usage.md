@@ -49,16 +49,32 @@ Generates a Sierpinski triangle at the given recursion `order` (0 or greater) us
 
 ## Animations (`starpatterns.patterns.animation`)
 
-All animations render frames directly to the terminal and return `None`.
+All animations render frames directly to the terminal and return `None`. Sample parameters are tuned for quick previews—feel free to adjust `frames`, `delay`, or `duration`.
 
-### `wave_text(text: str, amplitude: int = 2, speed: float = 0.08, cycles: int = 2) -> None`
-Animates the text along a horizontal sine wave. `amplitude` controls indentation; `speed` controls frame delay; `cycles` sets how many sine waves to render.
-
-### `bouncing_ball(width: int = 20, height: int = 5, frames: int = 80, delay: float = 0.05, char: str = "o") -> None`
-Animates a single character bouncing within a rectangular field. `width`/`height` set the bounds; `frames` controls total steps; `delay` sets the pause between frames; `char` picks the ball symbol.
-
-### `spinner(text: str = "Loading", duration: float = 2.0, interval: float = 0.1) -> None`
-Displays a classic CLI spinner beside the provided text. `duration` sets total runtime; `interval` sets the frame rate.
+- `wave_text(text, amplitude=2, speed=0.08, cycles=2)`: Sine-wave horizontal motion.
+- `bouncing_ball(width=20, height=5, frames=80, delay=0.05, char="o")`: 2D bouncing ball.
+- `spinner(text="Loading", duration=2.0, interval=0.1)`: Classic spinner.
+- `loading_bar(width=30, duration=2.0, char="#")`: Filling progress bar.
+- `typing_text(text, interval=0.05, cursor="|")`: Typewriter effect.
+- `blinking_text(text, blinks=6, interval=0.3)`: Blink on/off.
+- `marquee(text, width=30, cycles=3, speed=0.05)`: Scrolling ticker window.
+- `bouncing_text(text, width=30, frames=60, delay=0.05)`: Left/right bounce on one line.
+- `pulse_text(text, min_spaces=0, max_spaces=6, cycles=6, delay=0.06)`: In/out pulsing via indentation.
+- `snake_line(width=30, length=8, frames=100, delay=0.04, head="O", body="o")`: One-line snake.
+- `progress_dots(text="Loading", dots=3, cycles=5, delay=0.3)`: Growing trailing dots.
+- `countdown(seconds=5)`: Simple countdown timer.
+- `ripple_line(width=40, frames=80, delay=0.04, char="*")`: Moving ripple on one line.
+- `bar_wave(width=30, frames=80, delay=0.05, char="|")`: Equalizer-like moving bars on one line.
+- `matrix_rain(width=40, height=12, frames=80, delay=0.05)`: Matrix-style falling glyphs.
+- `equalizer(bars=16, height=8, frames=80, delay=0.05, char="#")`: Multi-line audio bars.
+- `fireworks(bursts=4, size=12, delay=0.12, char="*")`: Radial fireworks bursts.
+- `twinkle_stars(width=40, height=8, frames=80, delay=0.07, density=0.15)`: Twinkling starfield.
+- `dna_helix(frames=80, delay=0.06)`: ASCII helix loop.
+- `shooting_star(width=40, height=10, frames=60, delay=0.05, char="*")`: Diagonal shooting star with tail.
+- `rising_bar(width=20, height=8, frames=60, delay=0.05, char="#")`: Rising/falling fill.
+- `orbit(radius=6, frames=100, delay=0.05)`: Orbiting dot around a center.
+- `falling_sand(width=30, height=10, frames=80, delay=0.05, density=0.2)`: Minimal sand simulation.
+- `carousel(text="Loading", frames=80, delay=0.08)`: Rotating line beside text.
 
 ## Utilities (`starpatterns.utils`)
 
