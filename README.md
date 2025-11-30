@@ -13,7 +13,8 @@
 ## Installation
 
 ```bash
-pip install starpatterns
+pip install git+https://github.com/vahid2510/star.git
+
 ```
 
 ## Quick Start
