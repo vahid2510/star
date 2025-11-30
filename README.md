@@ -47,6 +47,8 @@ Run the demo to preview every feature:
 
 ```bash
 python -m starpatterns.demos.examples
+python -m starpatterns.demos.all_examples
+
 ```
 
 ## License
