@@ -13,8 +13,7 @@
 ## Installation
 
 ```bash
-pip install git+https://github.com/vahid2510/star.git
-
+pip install starpatterns
 ```
 
 ## Quick Start
@@ -43,12 +42,12 @@ bouncing_ball(width=20, height=6, frames=40, delay=0.04, char="*")
 
 ## Demo
 
-Run the demo to preview every feature:
+Run the demos to preview every feature:
 
 ```bash
 python -m starpatterns.demos.examples
+# یا دمو کامل با تمرکز روی انیمیشن‌ها
 python -m starpatterns.demos.all_examples
-
 ```
 
 ## License

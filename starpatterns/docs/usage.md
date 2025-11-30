@@ -76,10 +76,13 @@ Applies 24-bit color to text using RGB values in the 0–255 range.
 
 ## Demos (`starpatterns.demos.examples`)
 
-- `run_all()` clears the terminal, prints pattern samples, demonstrates colors, and plays all animations.
+- `starpatterns.demos.examples.run_all()` clears the terminal, چاپ الگوها و رنگ‌ها و همه انیمیشن‌ها را اجرا می‌کند.
+- `starpatterns.demos.all_examples.main()` یک دمو جامع‌تر است که روی انیمیشن‌ها تاکید دارد.
 
 Run the demo directly:
 
 ```bash
 python -m starpatterns.demos.examples
+# یا
+python -m starpatterns.demos.all_examples
 ```
